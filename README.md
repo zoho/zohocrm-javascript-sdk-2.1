@@ -64,7 +64,7 @@ You can install any browser as per your preference. JavaScript works on any web 
 
 ### CDN URL
 
-- https://static.zohocdn.com/zohocrm/v2.1/sdk/1.0.0/sdk.js
+- https://static.zohocdn.com/zohocrm/v2.1/sdk/1.1.0/sdk.js
 
 JavaScript SDK can be incorporated in two ways:
 
@@ -125,7 +125,7 @@ Before you get started with creating your JavaScript application, you need to re
     /*
     * Configure the environment
     * which is of the pattern Domain.Environment
-    * Available Domains: US, EU, IN, CN, AU
+    * Available Domains: US, EU, IN, CN, AU, JP
     * Available Environments: PRODUCTION(), DEVELOPER(), SANDBOX()
     */
     let environment = DataCenter.US.PRODUCTION();
@@ -192,7 +192,7 @@ class SDKInitializer {
         /*
          * Configure the environment
          * which is of the pattern Domain.Environment
-         * Available Domains: US, EU, IN, CN, AU
+         * Available Domains: US, EU, IN, CN, AU, JP
          * Available Environments: PRODUCTION(), DEVELOPER(), SANDBOX()
         */
         let environment = DataCenter.US.PRODUCTION();
@@ -337,7 +337,7 @@ class Record {
         /*
          * Configure the environment
          * which is of the pattern Domain.Environment
-         * Available Domains: US, EU, IN, CN, AU
+         * Available Domains: US, EU, IN, CN, AU, JP
          * Available Environments: PRODUCTION(), DEVELOPER(), SANDBOX()
         */
         let environment = DataCenter.US.PRODUCTION();
